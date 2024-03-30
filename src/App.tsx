@@ -45,7 +45,6 @@ function App() {
     return updatedCheckboxes;
   };
 
-  // Función principal para manejar el cambio de un checkbox
   const handleCheckboxChange = (id: string) => (checked: boolean) => {
     setCheckboxes((prevCheckboxes: ICheckboxes) => {
       if (id === "selectAll") {
